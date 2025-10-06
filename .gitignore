@@ -3,6 +3,7 @@ target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/linearPrograms/**/target/
 !**/src/test/**/target/
+TODOS.md
 
 ### IntelliJ IDEA ###
 *misc.xml
