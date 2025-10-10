@@ -14,7 +14,9 @@
 <details>
     <summary>Definition</summary>
 
-Interfaces are contracts that define methods without implementing them. Classes that implement an interface must provide the method implementations. 
+Interfaces are contracts that define methods without implementing them. Classes that implement an interface must provide the method implementations.
+
+Technically, it’s a "pure abstract class".
 </details>
 
 ### Why use Interfaces?
