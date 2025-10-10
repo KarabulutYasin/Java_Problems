@@ -1,4 +1,4 @@
-package de.month_1.fundamentals.day_15.Inheritance;
+package de.month_1.fundamentals.day_14.Inheritance;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

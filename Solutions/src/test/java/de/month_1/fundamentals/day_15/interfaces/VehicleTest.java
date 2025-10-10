@@ -1,4 +1,4 @@
-package de.month_1.fundamentals.day_14.interfaces;
+package de.month_1.fundamentals.day_15.interfaces;
 
 import org.junit.jupiter.api.Test;
 
@@ -15,7 +15,7 @@ class VehicleTest {
         Class<?>[][] expectedParamTypes = {new Class<?>[0], new Class<?>[0], new Class<?>[0], {int.class}};
         int i =0;
         try {
-            Class<?> clazz = Class.forName("de.month_1.fundamentals.day_14.interfaces.Vehicle");
+            Class<?> clazz = Class.forName("de.month_1.fundamentals.day_15.interfaces.Vehicle");
 
             assertTrue(clazz.isInterface(), "Vehicle should be an interface");
 

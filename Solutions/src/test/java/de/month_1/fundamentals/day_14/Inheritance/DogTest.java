@@ -1,4 +1,4 @@
-package de.month_1.fundamentals.day_15.Inheritance;
+package de.month_1.fundamentals.day_14.Inheritance;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -12,7 +12,7 @@ class DogTest {
     @BeforeEach
     void setUp() {
         try {
-            dogClass = Class.forName("de.month_1.fundamentals.day_15.Inheritance.Dog");
+            dogClass = Class.forName("de.month_1.fundamentals.day_14.Inheritance.Dog");
         }catch (ClassNotFoundException e) {
             fail("The class Dog does not exist. Did you name it correctly and put it in the correct package de.month_1.fundamentals.day_15.Inheritance?");
         }

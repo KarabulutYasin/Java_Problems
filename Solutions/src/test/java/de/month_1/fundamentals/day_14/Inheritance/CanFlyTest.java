@@ -1,4 +1,4 @@
-package de.month_1.fundamentals.day_15.Inheritance;
+package de.month_1.fundamentals.day_14.Inheritance;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -13,7 +13,7 @@ class CanFlyTest {
     @BeforeEach
     void setup() {
         try {
-            interfaceCanFly = Class.forName("de.month_1.fundamentals.day_15.Inheritance.CanFly");
+            interfaceCanFly = Class.forName("de.month_1.fundamentals.day_14.Inheritance.CanFly");
         } catch (ClassNotFoundException e) {
             fail("CanFly class not found");
         }

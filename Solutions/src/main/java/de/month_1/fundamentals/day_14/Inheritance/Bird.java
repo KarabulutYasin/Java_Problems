@@ -1,4 +1,4 @@
-package de.month_1.fundamentals.day_15.Inheritance;
+package de.month_1.fundamentals.day_14.Inheritance;
 
 public class Bird extends Animal implements CanFly {
 

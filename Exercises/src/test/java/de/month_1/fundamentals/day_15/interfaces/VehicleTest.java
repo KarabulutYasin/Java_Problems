@@ -1,4 +1,4 @@
-package de.month_1.fundamentals.day_14.interfaces;
+package de.month_1.fundamentals.day_15.interfaces;
 
 import org.junit.jupiter.api.Test;
 

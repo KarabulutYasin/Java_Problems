@@ -1,4 +1,4 @@
-package de.month_1.fundamentals.day_14.interfaces;
+package de.month_1.fundamentals.day_15.interfaces;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -22,7 +22,7 @@ public class CarTest {
     @BeforeEach
     void setup() {
         try {
-            carClass = Class.forName("de.month_1.fundamentals.day_14.interfaces.Car");
+            carClass = Class.forName("de.month_1.fundamentals.day_15.interfaces.Car");
         } catch (ClassNotFoundException e) {
             fail("Car class not found");
         }
@@ -31,7 +31,7 @@ public class CarTest {
     @Test
     void Car_is_instance_of_Vehicle() {
         assertDoesNotThrow(() -> {
-            assertInstanceOf(Class.forName("de.month_1.fundamentals.day_14.interfaces.Vehicle"), carClass.getDeclaredConstructor().newInstance(), "Car should implement Vehicle interface\nIs the Vehicle class in de.month_1.fundamentals.day_14.interfaces.Vehicle?");
+            assertInstanceOf(Class.forName("de.month_1.fundamentals.day_15.interfaces.Vehicle"), carClass.getDeclaredConstructor().newInstance(), "Car should implement Vehicle interface\nIs the Vehicle class in de.month_1.fundamentals.day_14.interfaces.Vehicle?");
         });
     }
 

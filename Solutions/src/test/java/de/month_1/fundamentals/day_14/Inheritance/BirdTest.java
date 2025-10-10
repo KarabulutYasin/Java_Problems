@@ -1,4 +1,4 @@
-package de.month_1.fundamentals.day_15.Inheritance;
+package de.month_1.fundamentals.day_14.Inheritance;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -13,7 +13,7 @@ class BirdTest {
     @BeforeEach
     void setUpBirdClass() {
         try {
-            birdClass = Class.forName("de.month_1.fundamentals.day_15.Inheritance.Bird");
+            birdClass = Class.forName("de.month_1.fundamentals.day_14.Inheritance.Bird");
         } catch (ClassNotFoundException e) {
             fail("The class Bird does not exist. Did you name it correctly and put it in the correct package de.month_1.fundamentals.day_15.Inheritance?");
         }
@@ -22,7 +22,7 @@ class BirdTest {
     @BeforeEach
     void setUpInterface() {
         try {
-            canFlyClass = Class.forName("de.month_1.fundamentals.day_15.Inheritance.CanFly");
+            canFlyClass = Class.forName("de.month_1.fundamentals.day_14.Inheritance.CanFly");
         } catch (ClassNotFoundException e) {
             fail("The interface CanFly does not exist. Did you name it correctly and put it in the correct package de.month_1.fundamentals.day_15.Inheritance?");
         }

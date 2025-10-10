@@ -1,4 +1,4 @@
-package de.month_1.fundamentals.day_15.Inheritance;
+package de.month_1.fundamentals.day_14.Inheritance;
 
 public class Dog extends Animal {
     public String species = "Dog"; // Field hiding demo
