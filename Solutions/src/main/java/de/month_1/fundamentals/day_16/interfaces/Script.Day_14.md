@@ -18,7 +18,6 @@ Interfaces are contracts that define methods without implementing them. Classes 
 
 Technically, it’s a "pure abstract class".
 </details>
-
 ### Why use Interfaces?
 
 <details> 

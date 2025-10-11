@@ -2,12 +2,31 @@
 
 ## Table of Contents
 
+- [Runnable Code](#runnable-code)
 - [Output to the Console](#output-of-texts)
 - [Arithmetic Operations](#arithmetic-operations)
 - [Concatenating Strings](#concatenation-of-strings)
 - [Calling Methods](#calling-methods-within-a-class)
 - [Converting Data Types](#converting-data-types)
 - [Arithmetic Operations with boolean](#arithmetic-operations-with-boolean)
+
+### Runnable Code 
+<details>
+    <summary>Runnable Code</summary>
+
+To run Java code, we need a `main` method. This is the entry point of every Java application.
+
+for now we just use it in the following weeks we will learn more about it so just for now take it as it is.
+
+```java
+public class Main {
+    public static void main(String[] args) {
+        // Your code goes here e.g.
+        System.out.println("Hello World");
+    }
+}
+```
+</details>
 
 ### We can output texts to the console
 
